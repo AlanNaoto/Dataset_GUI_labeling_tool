@@ -1,5 +1,5 @@
 # Dataset GUI labeling tool
-Tool created in Python 3 with PyQt5 which annotates valid frames from a HDF5 dataset into a DB file created with sqlite3. Was used mainly to help discard unusable frames from [CARLA created datasets](https://github.com/AlanNaoto/carla-dataset-runner) where recorded data at certain points could be seen as undesirable.
+Tool created in Python 3 with PyQt5 which annotates valid frames from a HDF5 dataset into a DB file created with sqlite3. Was used mainly to help discard unusable frames from [CARLA created datasets](https://github.com/AlanNaoto/carla-dataset-runner) where recorded data at certain points could be seen as undesirable. Can also be extended to be a more generalistic classification tool by working on the MainApplication class.
 
 <img src="GUI_2.png" width="80%">
 
