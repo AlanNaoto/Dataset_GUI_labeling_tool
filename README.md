@@ -1,7 +1,7 @@
 # Dataset GUI labeling tool
 Tool created in Python 3 with PyQt5 which annotates valid frames from a HDF5 dataset into a DB file created with sqlite3. Was used mainly to help discard unusable frames from [CARLA created datasets](https://github.com/AlanNaoto/carla-dataset-runner) where recorded data at certain points could be seen as undesirable.
 
-![GUI_bad_box_sample](GUI_2.png)
+<img src="GUI_2.png" width="80%">
 
 ## Getting started
 ### Prerequisites
@@ -32,7 +32,7 @@ where:
 
 If everything went right, the user interface should appear.
 
-![GUI_bad_box_sample](GUI_1.png)
+<img src="GUI_1.png" width="80%">
 
 Available keystrokes are:
 * Q - Changes the label marking to either "1" (good) or "0" (bad)
@@ -41,9 +41,9 @@ Available keystrokes are:
 ## DB data output format
 The database file has one main table - frames_analysis with the columns timestamps and good_frame, where timestamps are the already covered timestamps from the HDF5 input file and good_frame an integer 0 or 1.
 
-![db_data_explorer](db_file_data.png)
+<img src="db_file_data.png" width="80%">
 
-![db_data_structure](db_marker.png)
+<img src="db_marker.png" width="80%">
 
 - - -
 Icon ![icon](icon.png) made by andriy matviychuk from www.freeicons.io
