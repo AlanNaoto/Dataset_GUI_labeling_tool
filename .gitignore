@@ -1,0 +1,5 @@
+__pycache__
+hdf5_file
+results/*
+.idea/*
+
