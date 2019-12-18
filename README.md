@@ -28,7 +28,7 @@ python3 main.py hdf5_file db_file
 where:
 
 * hdf5_file is the full path to the HDF5 dataset file
-* db_file is the full path to the DB file. If it already exists, then it loads the last worked frame. If the file DB does not exist, then it creates a new one
+* db_file is the full path to the DB file. If it already exists, then it loads the last worked frame. If the DB file does not exists, then it creates a new one
 
 If everything went right, the user interface should appear.
 
