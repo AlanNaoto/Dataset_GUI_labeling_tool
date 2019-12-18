@@ -73,7 +73,7 @@ class MainApplication(QWidget):
         # Top level widget and main window
         self.resize(1024, 768)
         self.setWindowTitle('RGB images classification tool')
-        self.setWindowIcon(QIcon('cat.jpeg'))
+        self.setWindowIcon(QIcon('icon.png'))
 
         # Centralizes the main window
         qr = self.frameGeometry()  # main window dimensions
